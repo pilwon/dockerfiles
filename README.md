@@ -1,27 +1,11 @@
 # pilwon's dockerfiles
 
-
 ## [pilwon/base](https://registry.hub.docker.com/u/pilwon/base/)
 
-### Build
-
-      docker build -t pilwon/base base
-      docker push pilwon/base
-
-### Usage
-
-    docker pull pilwon/base
+    docker build -t pilwon/base base
     docker run -it --rm pilwon/base
-
 
 ## [pilwon/nodejs](https://registry.hub.docker.com/u/pilwon/nodejs/)
 
-### Build
-
     docker build -t pilwon/nodejs nodejs
-    docker push pilwon/nodejs
-
-### Usage
-
-    docker pull pilwon/nodejs
     docker run -it --rm pilwon/nodejs
