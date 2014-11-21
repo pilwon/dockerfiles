@@ -14,4 +14,4 @@ RUN /root/.init/setup
 
 ENV HOME /root
 
-WORKDIR /root
+WORKDIR /data

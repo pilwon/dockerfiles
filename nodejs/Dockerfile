@@ -6,5 +6,3 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   npm install -g bower grunt-cli nodemon serve && \
   echo '\n# Node.js\nexport PATH="node_modules/.bin:$PATH"' >> /root/.bashrc
-
-WORKDIR /data
