@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-RUN echo "deb http://http.debian.net/debian wheezy-backports main" >> /etc/apt/sources.list
+RUN echo "deb http://cdn.debian.net/debian wheezy-backports main" >> /etc/apt/sources.list
 
 RUN \
   apt-get update && \
