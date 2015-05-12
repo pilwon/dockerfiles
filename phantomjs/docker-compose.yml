@@ -1,0 +1,5 @@
+---
+phantomjs:
+  image: pilwon/phantomjs
+  ports:
+    - '8910:8910'
